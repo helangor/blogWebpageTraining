@@ -19,8 +19,8 @@ let posts = [];
 
 app.get("/", function(req, res) {
   res.render("home", {
-  startingContent: homeStartingContent});
-  console.log(posts);
+  startingContent: homeStartingContent,
+  posts: posts});
 
 });
 
